@@ -1,0 +1,27 @@
+testcase policies:
+	policy0.txt --> Policy for testcase 0
+	policy1.txt --> Policy for testcase 1
+	policy2.txt --> Policy for testcase 2
+
+	Given in the form (x,y): recommended_move for all (x,y) in the grid
+
+testcase_simulation_moves:
+	simulationMovesA_B.txt --> Simulated moves for testcase A car number B
+
+	format:
+		0~~~~~~~~~~~~~
+		move0
+		move1
+		...
+		moveN
+		1~~~~~~~~~~~~~
+		move0
+		move1
+		...
+		moveN
+		...
+		9~~~~~~~~~~~~~
+		move0
+		move1
+		...
+		moveN
